@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import { Home } from './pages/home';
 import { About } from './pages/about';
 import { Projects } from './pages/projects';
 import './App.css';
@@ -15,13 +14,11 @@ class App extends Component {
         <div>
 
           <Navbar bg="light" expand="lg">
-            <LinkContainer to="/">
-              <Navbar.Brand>Alvin Yang</Navbar.Brand>
-            </LinkContainer>
+            <Navbar.Brand>Alvin Yang</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <LinkContainer to="/about">
+                <LinkContainer to="/">
                   <Nav.Link>About</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/projects">
@@ -30,8 +27,7 @@ class App extends Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route exact path="/" component={About} />
           <Route path="/projects" component={Projects} />
         </div>
       </Router>
