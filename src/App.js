@@ -12,7 +12,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-
           <Navbar bg="light" expand="lg">
             <Navbar.Brand>Alvin Yang</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

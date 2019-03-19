@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 
@@ -9,7 +8,8 @@ export class Projects extends React.Component {
     render() {
         return (
             <Container>
-                <h2>Projects</h2>
+                <h1>Projects</h1>
+                <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="img/gameoflife.png" />
@@ -34,6 +34,7 @@ export class Projects extends React.Component {
                         </Card.Body>
                         <Card.Body>
                             <Card.Link href="https://github.com/vindow/Calendar">Github</Card.Link>
+                            <Card.Link href="https://vindow.github.io/Calendar/">Demo</Card.Link>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
@@ -96,7 +97,7 @@ export class Projects extends React.Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="img/superpongout.png" />
+                        <Card.Img variant="top" src="img/superpongout.jpg" />
                         <Card.Body>
                             <Card.Title>Super Pongout</Card.Title>
                             <Card.Text>
