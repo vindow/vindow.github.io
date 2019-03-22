@@ -10,23 +10,27 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Navbar bg="light" expand="lg">
-            <Navbar.Brand>Alvin Yang</Navbar.Brand>
+            <LinkContainer to="/">
+              <Navbar.Brand>Alvin Yang</Navbar.Brand>
+            </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <LinkContainer to="/">
-                  <Nav.Link>About</Nav.Link>
+                <LinkContainer to="/about">
+                  <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/projects">
                   <Nav.Link>Projects</Nav.Link>
                 </LinkContainer>
+                <Nav.Link href="https://drive.google.com/file/d/1H_28Xsa7zXuhskQsuwgkIFmyl1RTy3sR/view" target="_blank">Resume</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
           <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
           <Route path="/projects" component={Projects} />
         </div>
       </Router>

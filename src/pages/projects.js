@@ -2,12 +2,14 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
-
+import { SocialIcon } from 'react-social-icons';
 export class Projects extends React.Component {
 
     render() {
         return (
             <Container>
+                <br />
+                <br />
                 <h1>Projects</h1>
                 <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
@@ -136,6 +138,13 @@ export class Projects extends React.Component {
                         </Card.Body>
                     </Card>
                 </CardColumns>
+                <div className="footer">
+                    <div className="footerIcons">
+                        <SocialIcon url="https://www.linkedin.com/in/yangalvin/" />
+                        <SocialIcon url="https://github.com/vindow" />
+                        <SocialIcon url="mailto:alvin.yang73@gmail.com" />
+                    </div>
+                </div>
             </Container>
         );
     }
