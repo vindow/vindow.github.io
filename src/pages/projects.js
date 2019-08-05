@@ -14,7 +14,7 @@ export class Projects extends React.Component {
                 <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="img/ctype.gif" />
+                        <Card.Img variant="top" src="img/ctype.png" />
                         <Card.Body>
                             <Card.Title>C|TYPE</Card.Title>
                             <Card.Text>
