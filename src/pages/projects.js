@@ -14,6 +14,19 @@ export class Projects extends React.Component {
                 <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
                     <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/ctype.gif" />
+                        <Card.Body>
+                            <Card.Title>C|TYPE</Card.Title>
+                            <Card.Text>
+                                A typing game created in Godot Game Engine for a game jam.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/vindow/C-TYPE">Github</Card.Link>
+                            <Card.Link href="https://durbo.itch.io/ctype">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="img/gameoflife.png" />
                         <Card.Body>
                             <Card.Title>Game of Life Simulator</Card.Title>
