@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div>
-          <Navbar bg="light" expand="lg">
+          <Navbar bg="dark" expand="lg" variant="dark">
             <LinkContainer to="/">
               <Navbar.Brand>Alvin Yang</Navbar.Brand>
             </LinkContainer>
