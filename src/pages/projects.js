@@ -14,6 +14,32 @@ export class Projects extends React.Component {
                 <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
                     <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/shopquiz.png" />
+                        <Card.Body>
+                            <Card.Title>Shopkeeper's Quiz</Card.Title>
+                            <Card.Text>
+                                A remake of the item shop quiz from Dota 2.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/vindow/dota-shop-quiz">Github</Card.Link>
+                            <Card.Link href="https://vindow.github.io/dota-shop-quiz/">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/memorygame.png" />
+                        <Card.Body>
+                            <Card.Title>Memory Game</Card.Title>
+                            <Card.Text>
+                                A card matching memory game made in ReactJS using Redux.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/vindow/memory-game">Github</Card.Link>
+                            <Card.Link href="https://vindow.github.io/memory-game/">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="img/ctype.png" />
                         <Card.Body>
                             <Card.Title>C|TYPE</Card.Title>
