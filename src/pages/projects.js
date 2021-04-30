@@ -14,6 +14,43 @@ export class Projects extends React.Component {
                 <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
                     <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/todolist.png" />
+                        <Card.Body>
+                            <Card.Title>To-Do List</Card.Title>
+                            <Card.Text>
+                                Basic standard to-do list for React Hooks practice
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/vindow/todo-hooks">Github</Card.Link>
+                            <Card.Link href="https://vindow.github.io/todo-hooks/">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/emaily.png" />
+                        <Card.Body>
+                            <Card.Title>Emaily</Card.Title>
+                            <Card.Text>
+                                A survey sending/management website built using NodeJS, ReactJS, Express, and MongoDB.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://secret-beach-00042.herokuapp.com">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/walls.png" />
+                        <Card.Body>
+                            <Card.Title>The Walls Have Bullets</Card.Title>
+                            <Card.Text>
+                                A frantic twin-stick shooter made in Godot Game Engine for a game jam.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://durbo.itch.io/the-walls-have-bullets">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="img/shopquiz.png" />
                         <Card.Body>
                             <Card.Title>Shopkeeper's Quiz</Card.Title>
