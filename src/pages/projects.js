@@ -14,6 +14,18 @@ export class Projects extends React.Component {
                 <p>Here some some of the projects I've made over the years. Some of them don't have a demo because they aren't quite as fleshed out in feature and/or functionality as I'd like.</p>
                 <CardColumns>
                     <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="img/blitzblock.png" />
+                        <Card.Body>
+                            <Card.Title>BLIT2/B1OCK</Card.Title>
+                            <Card.Text>
+                                A more strategic top-down shooter game made in Godot Game Engine for a game jam.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://durbo.itch.io/blit2b1ock">Demo</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="img/todolist.png" />
                         <Card.Body>
                             <Card.Title>To-Do List</Card.Title>
